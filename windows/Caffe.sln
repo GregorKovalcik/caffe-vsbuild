@@ -71,6 +71,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "caffe_feature_extractor_lib
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "caffe_feature_extractor", "caffe_feature_extractor\caffe_feature_extractor.vcxproj", "{18FB727D-BDD4-4FFB-930B-03BA20DCA65D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CaffeFeatureExtractorCLR", "CaffeFeatureExtractorCLR\CaffeFeatureExtractorCLR.vcxproj", "{4FA757EC-CA49-456D-ABB0-E0FA42BCC201}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -145,6 +147,10 @@ Global
 		{18FB727D-BDD4-4FFB-930B-03BA20DCA65D}.Debug|x64.Build.0 = Debug|x64
 		{18FB727D-BDD4-4FFB-930B-03BA20DCA65D}.Release|x64.ActiveCfg = Release|x64
 		{18FB727D-BDD4-4FFB-930B-03BA20DCA65D}.Release|x64.Build.0 = Release|x64
+		{4FA757EC-CA49-456D-ABB0-E0FA42BCC201}.Debug|x64.ActiveCfg = Debug|x64
+		{4FA757EC-CA49-456D-ABB0-E0FA42BCC201}.Debug|x64.Build.0 = Debug|x64
+		{4FA757EC-CA49-456D-ABB0-E0FA42BCC201}.Release|x64.ActiveCfg = Release|x64
+		{4FA757EC-CA49-456D-ABB0-E0FA42BCC201}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
