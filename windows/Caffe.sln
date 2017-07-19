@@ -46,11 +46,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{E2EF
 	ProjectSection(SolutionItems) = preProject
 		scripts\BinplaceCudaDependencies.cmd = scripts\BinplaceCudaDependencies.cmd
 		scripts\FixGFlagsNaming.cmd = scripts\FixGFlagsNaming.cmd
+		scripts\MatlabPostBuild.cmd = scripts\MatlabPostBuild.cmd
+		scripts\MatlabPreBuild.cmd = scripts\MatlabPreBuild.cmd
 		scripts\ProtoCompile.cmd = scripts\ProtoCompile.cmd
 		scripts\PythonPostBuild.cmd = scripts\PythonPostBuild.cmd
 		scripts\PythonPreBuild.cmd = scripts\PythonPreBuild.cmd
-		scripts\MatlabPostBuild.cmd = scripts\MatlabPostBuild.cmd
-		scripts\MatlabPreBuild.cmd = scripts\MatlabPreBuild.cmd
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "convert_cifar_data", "convert_cifar_data\convert_cifar_data.vcxproj", "{B166B643-C90B-4903-B735-D2D4ED4F2248}"
@@ -66,6 +66,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "upgrade_net_proto_text", "upgrade_net_proto_text\upgrade_net_proto_text.vcxproj", "{4E201A07-4464-4ECF-8D5E-6B7E3B2D896B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "upgrade_solver_proto_text", "upgrade_solver_proto_text\upgrade_solver_proto_text.vcxproj", "{E1185C4E-1AEA-4E0E-BE85-2671E065016A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "caffe_feature_extractor_lib", "caffe_feature_extractor_lib\caffe_feature_extractor_lib.vcxproj", "{8A7AC2D1-5996-451A-8D3F-40941845F635}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,6 +135,10 @@ Global
 		{E1185C4E-1AEA-4E0E-BE85-2671E065016A}.Debug|x64.Build.0 = Debug|x64
 		{E1185C4E-1AEA-4E0E-BE85-2671E065016A}.Release|x64.ActiveCfg = Release|x64
 		{E1185C4E-1AEA-4E0E-BE85-2671E065016A}.Release|x64.Build.0 = Release|x64
+		{8A7AC2D1-5996-451A-8D3F-40941845F635}.Debug|x64.ActiveCfg = Debug|x64
+		{8A7AC2D1-5996-451A-8D3F-40941845F635}.Debug|x64.Build.0 = Debug|x64
+		{8A7AC2D1-5996-451A-8D3F-40941845F635}.Release|x64.ActiveCfg = Release|x64
+		{8A7AC2D1-5996-451A-8D3F-40941845F635}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
